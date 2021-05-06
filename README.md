@@ -27,6 +27,11 @@ Para encontrar a rota com menor valor foi utilizado o [algoritmo de Dijkstra](ht
 
 Também foi adicionado ao programa uma variedade de validações para garantir o correto tratamentos das informações de entrada, garantindo que as mensagens de validação sejam retornadas ao usuário de forma clara.
 
+# Pré-requisitos
+
+- Java 11
+- Maven 3.0.4+
+
 # Como executar
 - Acessar a pasta do do projeto e executar o comando para compilar o projeto.
 
