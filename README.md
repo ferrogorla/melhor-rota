@@ -28,7 +28,7 @@ Para encontrar a rota com menor valor foi utilizado o [algoritmo de Dijkstra](ht
 Também foi adicionado ao programa uma variedade de validações para garantir o correto tratamentos das informações de entrada, garantindo que as mensagens de validação sejam retornadas ao usuário de forma clara.
 
 # Como executar
-- Acessar a pasta do programa e executar o comando para compilar o projeto.
+- Acessar a pasta do do projeto e executar o comando para compilar o projeto.
 
 
     cd melhor-rota
@@ -39,6 +39,11 @@ Também foi adicionado ao programa uma variedade de validações para garantir o
 
 
     mvn spring-boot:run -Dspring-boot.run.arguments=--file=[DIRETORIO_DO_ARQUIVO]/routes.csv
+
+- Execute o programa em modo debug usando os parametros abaixo.
+
+
+    mvn spring-boot:run -Dspring-boot.run.arguments=--file=[DIRETORIO_DO_ARQUIVO]/routes.csv -Dspring-boot.run.jvmArguments="-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8787"
 
 # Documentação da API
 
